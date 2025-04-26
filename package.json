@@ -18,11 +18,11 @@
         "large documents",
         "quickdom"
     ],
-    "author": "Your Name",
+    "author": "Alpesh Chaudhari",
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/yourusername/quickdom"
+        "url": "https://github.com/iam-alpesh/QuickDOM"
     },
     "files": [
         "dist",
