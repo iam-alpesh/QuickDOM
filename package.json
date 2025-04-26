@@ -1,0 +1,43 @@
+{
+    "name": "quickdom",
+    "version": "1.0.0",
+    "description": "Optimized Virtual DOM querying library for large HTML documents",
+    "main": "dist/quickdom.cjs.js",
+    "module": "dist/quickdom.esm.js",
+    "unpkg": "dist/quickdom.umd.js",
+    "types": "./dist/index.d.ts",
+    "type": "module",
+    "keywords": [
+        "dom",
+        "virtual dom",
+        "html optimization",
+        "query",
+        "performance",
+        "browser",
+        "fast dom",
+        "large documents",
+        "quickdom"
+    ],
+    "author": "Your Name",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/yourusername/quickdom"
+    },
+    "files": [
+        "dist",
+        "src",
+        "README.md",
+        "LICENSE"
+    ],
+    "scripts": {
+        "build": "rollup -c"
+    },
+    "devDependencies": {
+        "@rollup/plugin-babel": "^6.0.4",
+        "@rollup/plugin-commonjs": "^28.0.3",
+        "@rollup/plugin-node-resolve": "^16.0.1",
+        "rollup": "^2.79.2",
+        "rollup-plugin-terser": "^7.0.2"
+    }
+}
